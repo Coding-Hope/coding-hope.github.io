@@ -5,7 +5,12 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="static/css/main.css">
 
@@ -13,17 +18,49 @@
 </head>
 <body>
 
-	<div class="columns" style="min-height: 100vh">
-		<div class="column standard-padding" id="column-developer">
-			<p class="ch-medium-title" style="text-align:center;">I'm a developer</p>
-			<br>
-			<center><a href="https://forms.gle/2DvAkhCPitAJU1U48" class="button is-light is-outlined is-large">Sign me up</a></center>
-		</div>
-		<div class="column standard-padding" id="column-organization">
-			<p class="ch-medium-title" style="text-align:center;">I'm an organization</p>
-			<br>
-			<center><a href="https://forms.gle/ySwowQWLiMuccw7u7" class="button is-light is-outlined is-large">Count me in</a></center>
 
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	  <a class="navbar-brand" href="index.html"><b>Coding Hope</b></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNav">
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html#about">About</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="signup.html">Get Involved</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html#contact">Contact</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row" style="min-height: 100vh">
+			<div class="col standard-padding" id="column-developer">
+				<div style="margin-top: 15vh">
+					<p class="ch-medium-title" style="text-align:center;">I'm a developer</p>
+					<br>
+					<p class="grey-text" style="text-align:center;">Whether you are a student or an experienced programmer, just getting started or highly skilled, joining the Coding Hope movement will support the legacies and stories that local organizations will continue to tell.</p>
+					<center><a href="https://forms.gle/2DvAkhCPitAJU1U48" class="btn btn-outline-light btn-lg">Sign me up</a></center>
+				</div>
+			</div>
+			<div class="col standard-padding" id="column-organization">
+				<div style="margin-top: 15vh">
+
+					<p class="ch-medium-title" style="text-align:center;">I'm an organization</p>
+					<br>
+					<p class="grey-text" style="text-align:center;">The Coding Hope movement welcomes local businesses and nonprofits to join to ensure that the impact from these community organizations can continue to last throughout the pandemic and beyond.</p>
+
+					<center><a href="https://forms.gle/2DvAkhCPitAJU1U48" class="btn btn-outline-light btn-lg">Count me in</a></center>
+
+				</div>
+
+			</div>
 		</div>
 	</div>
 </body>
